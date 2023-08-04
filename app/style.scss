@@ -129,6 +129,7 @@ html {
   transition: transform 0.4s ease-in-out;
 }
 
+
 .navbar .menu-items {
   padding-top: 350px;
   background-color: #FFB6C1;
@@ -342,4 +343,16 @@ html {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   color: #FFB6C1;
+}
+
+.header-divs {
+  padding-left: 8rem;
+  padding-right: 8rem; 
+}
+
+@media screen and (max-width: 992px) {
+  .header-divs {
+    padding-left: 1rem;
+    padding-right: 1rem; 
+  }
 }

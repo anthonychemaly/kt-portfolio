@@ -29,7 +29,7 @@ const Header = () => {
      
         <Navbar />
         <div className='container mx-auto'>
-        <div className='flex sm:flex-row flex-col justify-between sm:mt-20 sm:px-32'>
+        <div className='flex sm:flex-row flex-col sm:justify-between sm:mt-20 header-divs'>
           <div className='sm:text-left md:text-left text-center'>
               <h1 className='text-2xl mt-12 flex flex-col '>Hi there! I'm<span className='sm:text-8xl text-5xl py-8'>Kathy El Khoury</span>        
               </h1>
@@ -63,7 +63,7 @@ const Header = () => {
           </div>
           <HeaderSocials />
 
-          <div className="w-[22rem] h-[30rem] sm:mb-[79px] mb-[30px] overflow-hidden me sm:mt-0 mt-4 sm:ml-0 ml-4">
+          <div className="w-[350px] h-[450px] sm:mb-[79px] mb-[30px] overflow-hidden me sm:mt-0 mt-4 sm:ml-0 ml-4">
             <img src='images/me.png' alt="Kathy" />
           </div>
 
